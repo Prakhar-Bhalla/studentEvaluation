@@ -71,7 +71,7 @@ router.get("/evaluations/:id/students", async(req, res) => {
     }
 });
 
-router.get("/evaluations/:id/students/topper", async(req, res) => {
+router.get("/evaluations/:id/topper", async(req, res) => {
     try{
         const results = await Result.find({evaluation_id: req.params.id}, {student_id : 1, marks: 1}).sort({marks: -1}).populate("student_id").lean().exec();
         let std = results[0];

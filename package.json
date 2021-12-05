@@ -1,0 +1,24 @@
+{
+  "name": "studentEvaluation",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakhar-Bhalla/studentEvaluation.git"
+  },
+  "keywords": [],
+  "author": "Prakhar Bhalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prakhar-Bhalla/studentEvaluation/issues"
+  },
+  "homepage": "https://github.com/Prakhar-Bhalla/studentEvaluation#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  }
+}
